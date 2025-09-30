@@ -1,6 +1,6 @@
-# FileMaker React Starter
+# FileMaker React TypeScript Starter
 
-(For the German version, [please scroll down](#filemaker-react-starter-deutsch).)
+(For the German version, [please scroll down](#filemaker-react-typescript-starter-deutsch).)
 
 This project is a React starter template for developing web applications that can be integrated into FileMaker. It uses React with TypeScript and Vite as a build tool and fm-gofer for communication with FileMaker, providing an easy way to embed modern React applications in FileMaker.
 
@@ -59,7 +59,7 @@ npm run deploy-to-fm
 
 ---
 
-# FileMaker React Starter (deutsch)
+# FileMaker React TypeScript Starter (deutsch)
 
 Dieses Projekt ist ein React-Starter-Template für die Entwicklung von Web-Anwendungen, die in FileMaker integriert werden können. Es nutzt React mit TypeScript und Vite als Build-Tool und fm-gofer für die Kommunikation mit FileMaker und bietet eine einfache Möglichkeit, moderne React-Anwendungen in FileMaker einzubinden.
 
@@ -139,7 +139,7 @@ Die FileMaker-Konfiguration kann in der Datei `fm/fmConfig.js` angepasst werden:
 ```javascript
 export const fmConfig = {
   server: "$",
-  file: "FM-Starter",
+  file: "FM-React-TS",
   uploadScript: "uploadToFM",
   widgetName: "widgetName",
 };
